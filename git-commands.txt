@@ -1,5 +1,20 @@
-# initialize git
+# initialize git: initalizes the git repository
 git init
 
-# git branching
+# git branching: creates a new branch from the head
 git branch branch_name
+
+# git checkout: points to work branch
+git checkout branch_name
+
+# git checkout: branch and checkout at one shot
+git checkout -b branch_name
+
+# git log: log of commits for head
+git log
+
+# git status: status of head
+git status
+
+# git commit: commits the changes to the head
+git commit -m "commit message"
