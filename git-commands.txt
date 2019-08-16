@@ -1,2 +1,5 @@
 # initialize git
 git init
+
+# git branching
+git branch branch_name
